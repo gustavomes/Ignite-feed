@@ -1,0 +1,12 @@
+.wrapper {
+   
+    max-width: 70rem;
+    padding: 1rem 1rem;
+ 
+    display: grid; 
+    /* em colunas */
+    grid-template-columns: 256px 1fr;
+    /* a primeira coluana vai ter um tamanho fixo de 256 e segunda vai se adaptar */
+    gap: 2rem;
+    align-items: flex-start;
+}
