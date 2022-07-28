@@ -1,6 +1,7 @@
 import style from './post.module.css'
 import profileimage from '../../assets/profile-image.jpeg'
 import { Comment } from '../Coment/Comment'
+import { Avatar } from '../Avatar/Avatar'
 
 
 export function Post(props) {
@@ -10,7 +11,11 @@ export function Post(props) {
         {/* cabeçalho */}
         <header >
             <div className={style.author}>
-                <img src={profileimage} className={ style.avatar } />
+
+
+           <Avatar  scr="https://github.com/gustavomes.png" />
+                
+                
                 <div className={ style.authorInfo }>
                     <strong>
                      { props.author}

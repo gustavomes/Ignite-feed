@@ -9,13 +9,6 @@
     margin-top: 1rem;
 }
 
-.comment img {
-    box-sizing: initial ;
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 8px;
-
-}
 
 .commentBox {
     flex: 1;

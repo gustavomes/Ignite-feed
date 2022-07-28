@@ -2,6 +2,7 @@ import style from './sidebar.module.css'
 import  sidebackgroudimage from '../../assets/side-backgroud.svg'
 import  profileimage from '../../assets/profile-image.jpeg'
 import { PencilLine } from 'phosphor-react'; 
+import { Avatar } from '../Avatar/Avatar';
 
 export function Sidebar() {
     return (
@@ -15,11 +16,9 @@ export function Sidebar() {
            
             <div className={ style.profile }>
 
-                <img 
-                className={ style.avatar } 
-                src={profileimage} 
-                />
-                
+            <Avatar scr= "https://github.com/gustavomes.png" />
+
+              
                 <strong>Gustavo Medeiros</strong>
                 <span> Fotógrafo </span>
             </div>

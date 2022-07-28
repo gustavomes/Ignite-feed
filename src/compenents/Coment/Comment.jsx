@@ -1,13 +1,18 @@
 import style from './Comment.module.css'
 import profileimage from '../../assets/profile-image.jpeg'
 import { ThumbsUp, Trash } from 'phosphor-react'
+import { Avatar } from '../Avatar/Avatar'
 
 
 export function Comment(props) {
     return (
         <div className={ style.comment}>
              {/* cabeçalho */}
-        <img src={profileimage} className={ style.avatar } />
+        
+        
+         <Avatar hasBorder={false} scr="https://github.com/gustavomes.png" />
+        
+        
         <div className={ style.commentBox }>
             <div className={ style.commentContent}>
                 <header className={ style.authorAndTime }>
