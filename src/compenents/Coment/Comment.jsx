@@ -10,7 +10,7 @@ export function Comment(props) {
              {/* cabeçalho */}
         
         
-         <Avatar hasBorder={false} scr="https://github.com/gustavomes.png" />
+         <Avatar hasBorder={false} scr="https://github.com/mariomarthins.png" />
         
         
         <div className={ style.commentBox }>
@@ -31,7 +31,7 @@ export function Comment(props) {
                                 </button>
                 </header>
                 <p>
-                Muito bom Devon, parabéns!! 👏👏
+               {props.content}
                 </p>
             </div>
             <footer>
